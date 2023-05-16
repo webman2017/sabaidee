@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Mitr';
+    src: url('Mitr-ExtraLight.woff2') format('woff2'),
+        url('Mitr-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mitrl';
+    src: url('Mitr-Light.woff2') format('woff2'),
+        url('Mitr-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mitr';
+    src: url('Mitr-Bold.woff2') format('woff2'),
+        url('Mitr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mitrm';
+    src: url('Mitr-Medium.woff2') format('woff2'),
+        url('Mitr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mitr';
+    src: url('Mitr-SemiBold.woff2') format('woff2'),
+        url('Mitr-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mitrr';
+    src: url('Mitr-Regular.woff2') format('woff2'),
+        url('Mitr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+a{
+    text-decoration: none !important;
+}
+.backtxt{
+    font-family: 'Mitrr';
+    font-size: 20px;
+    color: #0e885c;
+}
+.formtxt{
+    font-family: 'Mitrr';
+    font-size: 16px;
+    color:#0e885c !important;
+}
+.smtxt{
+    font-family: 'Mitrl';
+    font-size: 14px !important;
+    color: #000 !important;
+}
+.formtxt_user{
+    font-family: 'Mitrr';
+    font-size: 16px;
+    color:#333 !important;
+}
+.txtbtn{
+    font-family: 'Mitrl' !important;
+    font-size: 14px !important;
+}
+.trtxt{
+    font-family: 'Mitrl';
+  font-size: 14px;
+  color:#333;
+}
+.tbtxt{
+      font-family: 'Mitrr';
+    font-size: 15px;
+}
+.footer_txt{
+    font-family: 'Mitrl';
+    font-size: 11px;
+    font-weight:normal !important;
+}
+
+.qrtxt{
+    font-family: 'Mitrl';
+    font-size: 12px;
+    font-weight:normal !important;
+}
+.user_txt{
+    font-family: 'Mitrl';
+    font-size: 15px;
+    font-weight:normal !important;
+}
+.sm-txt{
+    font-family: 'Mitrl';
+    font-size: 14px !important;
+    color: #000 !important;
+    font-weight:normal !important;
+}
+.text-alert{
+    font-family: 'Mitrl';
+    color: #f00;
+}
+.usertxt{
+    font-family: 'Mitrl';
+    color:#333;
+    font-size: 12px;
+}
+.menu{
+    font-family: 'Mitrl';
+}
+.dashboard_txt{
+    font-family: 'Mitrr';
+    font-size: 17px;
+}
+.dashboard_txt_w{
+    font-family: 'Mitrr';
+    font-size: 15px;
+    color:#fff;
+}
+.notice{
+    font-family: 'Mitrl';
+    font-size: 13px;
+    color: red;
+    padding: 0px 4px;
+}
+.logouttxt{
+    font-family: 'Mitrr';
+    font-size: 18px;
+}
+
+.sm-user{
+    font-family: 'Mitrl';
+    font-size: 14px !important;
+    color: #000 !important;
+    font-weight:normal !important;
+    pointer-events: none;
+}
+.txttopic{
+    font-family: 'Mitrr';
+    font-size: 17px !important;
+    color: #881d1a !important;
+}
+.txttopic-sm{
+    font-family: 'Mitrl';
+    font-size: 13px !important;
+    color: #881d1a !important;
+}
+.btn-success {
+    color: #fff;
+    background-color: #18a689 !important;
+    border-color: #18a689 !important;
+    border-radius: 0 !important;
+}
+.btn-sign-in {
+    color: #fff !important;
+    background-color: #06915f !important;
+    border-color: #06915f !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #ed5565 !important;
+    border-color: #ed5565 !important;
+    border-radius: 0 !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #f8ac59 !important;
+    border-color: #f8ac59 !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #8d2c92 !important;
+    border-color: #8d2c92 !important;
+    border-radius: 0 !important;
+}
+.btn-info {
+    color: #fff !important;
+    background-color: #36b9cc !important;
+    border-color: #36b9cc !important;
+    border-radius: 0 !important;
+}
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 41px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 50%;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 50%;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input.number {
+    text-align: center;
+    border: none;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    width: 200px;
+    height: 40px;
+    border-right: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  .label{
+    border:1px solid #ccc;
+    padding: 5px;
+}
+.invoice_txt{
+    font-size: 50px;
+    /* font-family: Mitr; */
+}
+
+  @media print {
+    @page {
+ 
+            size: 5cm 7cm portrait; 
+            margin: 10mm 10mm 10mm 10mm;
+   
+    }
+    .label{
+        border:1px solid #ccc;
+        padding: 5px;
+    }
+    .line{
+        border : 2px dashed #ccc;
+        margin: 30px 0px;
+        width: 100%;
+    }
+
+
+}
